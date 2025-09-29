@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     
     <ul id="zaglavlje" style="list-style: none; display: flex; gap: 0;">
             <li id="jedan" style="padding: 0 15px; border-right: 2px solid #ccc;">
@@ -63,32 +64,34 @@
     <hr>
 
     <h3>Cjenik i paketi usluga</h3>
-    <table border="1px solid black" width="100%">
+    
+
+    <table class="table">
         <thead>
-            <tr>
-                <th>Paket</th>
-                <th>Usluge uključene</th>
-                <th>Cijena (mjesečno)</th>
-            </tr>
+          <tr>
+            <th scope="col">Paket</th>
+            <th scope="col">Usluge uključene</th>
+            <th scope="col">Cijena (mjesečno)</th>
+          </tr>
         </thead>
         <tbody>
-            <tr>
-                <td><strong>Osnovni</strong></td>
-                <td>Procjena rizika, osnovna sigurnosna analiza</td>
-                <td>€299</td>
-            </tr>
-            <tr>
-                <td><strong>Napredni</strong></td>
-                <td>Procjena rizika, sigurnosne analize, edukacija zaposlenika</td>
-                <td>€599</td>
-            </tr>
-            <tr>
-                <td><strong>Premium</strong></td>
-                <td>Sve iz naprednog + upravljanje incidentima, 24/7 podrška</td>
-                <td>€999</td>
-            </tr>
+          <tr>
+            <th scope="row"><strong>Osnovni</strong></th>
+            <td>Procjena rizika, osnovna sigurnosna analiza</td>
+            <td>€299</td>
+          </tr>
+          <tr>
+            <th scope="row"><strong>Napredni</strong></th>
+            <td>Procjena rizika, sigurnosne analize, edukacija zaposlenika</td>
+            <td>€599</td>
+          </tr>
+          <tr>
+            <th scope="row"><strong>Premium</strong></th>
+            <td>Sve iz naprednog + upravljanje incidentima, 24/7 podrška</td>
+            <td>€999</td>
+          </tr>
         </tbody>
-    </table>
+      </table>
 </div>
 
     
